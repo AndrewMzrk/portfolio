@@ -1,0 +1,33 @@
+/*
+@mixin flexCenter($direction, $background) { // @mixin flexCenter {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background: $background;
+}
+*/
+header, .contact {
+  height: 100vh;
+  color: #2c2c2c;
+  background: lightblue;
+}
+
+header button, .contact button {
+  background: #7ebfca;
+}
+
+header button:hover, .contact button:hover {
+  background: red;
+}
+
+header button::after, .contact button::after {
+  content: "Helloo";
+}
+
+.contact {
+  background: lightcoral;
+  width: 80%;
+}
+/*# sourceMappingURL=style.css.map */
